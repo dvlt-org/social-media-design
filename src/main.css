@@ -1,0 +1,7 @@
+.app {
+    -webkit-box-shadow: -4px 4px 17px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -4px 4px 17px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: -4px 4px 17px 0px rgba(34, 60, 80, 0.2);
+    width: 600px;
+    padding: 10px 50px;
+}

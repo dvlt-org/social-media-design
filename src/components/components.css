@@ -1,0 +1,154 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.navbar h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar-navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.navbar-navigation li {
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    transition: all ease 1s;
+}
+
+.navbar-navigation li:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: turquoise;
+    left: 0;
+    bottom: -3px;
+    transform-origin: left;
+}
+
+.navbar-navigation li:hover:before {
+    width: 100%;
+}
+
+.navbar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+/* Posts style start */
+
+.posts {
+    margin-top: 30px;
+    width: 100%;
+}
+
+/* Post style start */
+
+.post {
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 10px 0px;
+}
+
+.post-header img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.post-image img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.post-media {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.post-media i {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.post-media__like {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Write and Comments */
+
+.write-comments {
+    width: 400px;
+    padding: 50px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    position: fixed;
+    top: 10;
+    left: 50;
+    background-color: white;
+}
+
+.write-comments {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.comment p {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(95, 113, 132);
+}
+
+.comment-form {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 20px 10px;
+    justify-content: space-between;
+    background-color: azure;
+    border-radius: 10px;
+    border: 1px solid #3123;
+}
+
+.comment-form input {
+    outline: none;
+    border: none;
+    background-color: azure;
+    font-size: 20px;
+}
+
+.comment-form button {
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
